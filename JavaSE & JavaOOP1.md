@@ -152,7 +152,7 @@
         public class Rect{
         Point leftTop;
         double h, w;
-        public Rect(){}
+        public Rect(){}
         public Rect(Point leftTop, double h, double w){
         this.h = h;
         this.w = w;
@@ -254,7 +254,7 @@
             }
             public Rect(double x,,double y, double w,,double h){
             //this(参数)调用上面的构造函数
-            this(new Point(x, y),w,h);
+            this(new Point(x, y),w,h);
             }
             }
             ```
